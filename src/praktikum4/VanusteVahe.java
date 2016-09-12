@@ -6,9 +6,9 @@ public class VanusteVahe {
 	
 	public static void main(String[] args) {
 		
-		System.out.print("Sisesta esimene vanus: ");
+		System.out.print("Sisesta kaks vanust: ");
 		int age1 = TextIO.getInt();
-		System.out.print("Sisesta teine vanus: ");
+		//System.out.print("Sisesta teine vanus: ");
 		int age2 = TextIO.getInt();
 		int vahe = Math.abs(age1 - age2);
 		
