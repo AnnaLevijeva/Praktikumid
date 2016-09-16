@@ -12,7 +12,7 @@ public class Password {
 		String trypass = TextIO.getln();
 		
 		if (password.equals(trypass)) {
-			System.out.println("õige");
+			System.out.println("oige");
 		} else {
 			System.out.println("vale");
 		}

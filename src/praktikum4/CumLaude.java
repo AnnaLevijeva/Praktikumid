@@ -26,32 +26,6 @@ public class CumLaude {
 				System.out.println("Jah saad cum laude diplomile!");
 			} else if (hind >= 0 && hind < 4.5) {
 				System.out.println("Ei saa");
-			} else {
-				System.out.println("Vale! Proovi uuesti");
-				return;
-			} 	
+			} 
 	}
 }
-	
-	
-//	public static double ret()  {
-//		
-//		boolean ask = true;
-//		double loputoo = 0;
-//		double keskmine = 0;
-//		
-//		while (ask) {
-//			System.out.print("Sinu lõputöö hind: ");
-//			loputoo = TextIO.getDouble();
-//			System.out.print("Sinu kaalatud keskhind: ");
-//			keskmine = TextIO.getDouble();
-//			
-//			if (loputoo >= 0 && loputoo <= 5 && keskmine >= 0 && keskmine <= 5) {
-//				ask = false;
-//			} else {
-//				ask = true;
-//			}
-//		}
-//		return (loputoo + keskmine)/2;
-//	}
-//}
