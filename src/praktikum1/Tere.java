@@ -6,6 +6,6 @@ public class Tere {
 		System.out.println("  *    *      *   *  *      *");
 		System.out.println("  *    *****  ****   *****  *");
 		System.out.println("  *    *      *  *   *       ");
-		System.out.println("  *    *****  *   *  *****  *");
+		//System.out.println("  *    *****  *   *  *****  *");
 	}
 }
