@@ -17,7 +17,7 @@ public class ArvaAra {
 	
 	public static boolean isEqual(int i) {
 		
-		/*
+		/**
 		 * Method checks if the number in input is equal with the randomNum or not. 
 		 * Method prints out string containing the result of checking.
 		 * Method returns TRUE if input is equal with randomNum.
@@ -39,7 +39,7 @@ public class ArvaAra {
 	
 	public static void game() {
 		
-		/*
+		/**
 		 * Method puts a random value 0-100 in variable randomNum.
 		 * While input is not equal with randomNum method is asking a new input.
 		 * If input is equal with randomNum program exits method.

@@ -9,7 +9,7 @@ public class HeadsOrTails {
 	}
 	
 	public static String dropCoin() {
-		/*
+		/**
 		 * Method returns a random choose between "Heads" and "Tails"
 		 */
 		 Random rand = new Random();
@@ -19,6 +19,6 @@ public class HeadsOrTails {
 		 } else {
 			 return "Tails";
 		 }
-	}
+	} // method end
 
 }
