@@ -1,5 +1,6 @@
 package praktikum1;
 
+import lib.TextIO;
 import lib.Card;
 import lib.Deck;
 import lib.TextIO;

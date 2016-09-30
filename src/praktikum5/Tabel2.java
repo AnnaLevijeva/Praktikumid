@@ -1,13 +1,17 @@
 package praktikum5;
 
+import lib.TextIO;
+
 public class Tabel2 {
 
 	public static void main(String[] args) {
 
-		int tabeliSuurus = 7;
+		//int tabeliSuurus = 8;
+		System.out.print("Sisesta tsbeli suurus: ");
+		int tabeliSuurus = TextIO.getInt();
 		
 		for (int n = 0; n < tabeliSuurus; n++) {
-			System.out.print("--");
+			System.out.print("");
 		}
 		System.out.println("");
 		
