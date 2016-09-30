@@ -9,6 +9,7 @@ public class HeadsOrTails {
 	public static void main(String[] args) {
 		
 		String randHT = dropCoin();
+		
 	}
 	
 	public static String dropCoin() {
@@ -22,11 +23,20 @@ public class HeadsOrTails {
 		 } else {
 			 return "Tails";
 		 }
-	} // method end
+	} // method end -- dropCoin()
 	
 	public static String userInput() {
-		String inp = TextIO.getlnString();
-		while (inp)
-	}
+		return "";
+	} //method end -- userInput()
 
+
+	public static boolean correctInput(String param) {
+		System.out.println("Heads or Tails?");
+		while ( (param.equals("Tails") || param.equals("Heads")) == false) {
+			param = TextIO.getln();
+			continue;
+		} // While loop end
+		return true;
+
+	} // method end -- correctInput()
 }

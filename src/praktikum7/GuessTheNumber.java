@@ -2,8 +2,9 @@ package praktikum7;
 
 import java.util.Random;
 import lib.TextIO;
+import praktikum6.Methods;
 
-public class ArvaAra {
+public class GuessTheNumber {
 	
 	public static int randomNum;
 	
@@ -49,11 +50,11 @@ public class ArvaAra {
 		Random rand = new Random();
 		randomNum = rand.nextInt(100);
 		//System.out.println(randomNum);
-		System.out.print("Guess the number (from 0 to 100): ");
-		int userInput = TextIO.getInt();
+		//System.out.print("Guess the number (from 0 to 100): ");
+		int userInput = Methods.userInputInt(1, 100);
 		
 		while (isEqual(userInput) == false) {
-			userInput = TextIO.getInt();
+			userInput = Methods.userInputInt(1, 100);
 			
 		} // WHILE loop end
 	} // method end

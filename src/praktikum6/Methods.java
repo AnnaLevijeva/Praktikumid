@@ -13,7 +13,7 @@ public class Methods {
 //		System.out.println("Selle arvu kuup on " + var);
 //		System.out.println();
 		
-		int kasArv = kasutajaSisestus(0, 30);
+		int kasArv = userInputInt(0, 30);
 		
 		
 	}
@@ -22,14 +22,14 @@ public class Methods {
 		return (int) Math.pow(ret, 3);
 	}
 
-	public static int kasutajaSisestus(int min, int max) {
+	public static int userInputInt(int min, int max) {
 		while (true) {
-			System.out.print("Sisesta arv vahemikus " + min + " kuni " + max + ": ");
+			System.out.print("Enter a number from " + min + " to " + max + ": ");
 			int ret = TextIO.getInt();
 			if (ret < min || ret > max) {
-				System.out.println("Ei sobi, proovi uuesti.");;
+				System.out.println("Invalid value. Enter again: ");;
 			} else {
-				System.out.println("Sobib.");
+				
 				return ret;
 			}
 		} 
