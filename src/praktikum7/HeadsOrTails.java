@@ -2,10 +2,13 @@ package praktikum7;
 
 import java.util.Random;
 
+import lib.TextIO;
+
 public class HeadsOrTails {
 	
 	public static void main(String[] args) {
-		//System.out.println(dropCoin());
+		
+		String randHT = dropCoin();
 	}
 	
 	public static String dropCoin() {
@@ -20,5 +23,10 @@ public class HeadsOrTails {
 			 return "Tails";
 		 }
 	} // method end
+	
+	public static String userInput() {
+		String inp = TextIO.getlnString();
+		while (inp)
+	}
 
 }
