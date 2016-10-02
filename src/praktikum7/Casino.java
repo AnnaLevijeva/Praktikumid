@@ -7,6 +7,16 @@ public class Casino {
 	
 	public static void main(String[] args) {
 		
+		/**
+		 * Kasutajale antakse 100 raha.
+			Küsitakse panuse suurust, maksimaalne panus on 25 raha.
+			Visatakse münt.
+			Kui tuli kiri, saab kasutaja panuse topelt tagasi.
+			Kui tuli kull, ei saa ta midagi.
+			Mäng kestab seni, kuni kasutajal raha otsa saab.
+			NB! Mõistlik on kasutajale raha jääki vahel näidata ka.
+		 */
+		
 		Random rand = new Random();
 		int moneyCount = 100;
 		int rate;
