@@ -7,7 +7,9 @@ import lib.TextIO;
 public class Massiivid {
 
 	public static void main(String[] args) {
-
+		
+		listFromLast(5);
+		
 	} // main
 
 	public static int sum(int[] list) {
@@ -18,7 +20,7 @@ public class Massiivid {
 		return ret;
 	}
 
-	public static void arrayFromLast(int listSize) {
+	public static void listFromLast(int listSize) {
 
 		int[] numbers = new int[listSize];
 
@@ -39,7 +41,7 @@ public class Massiivid {
 		Random rand = new Random();
 
 		System.out.print("Count of people: ");
-		int listSize = TextIO.getInt();
+		int listSize = TextIO.getlnInt();
 		ArrayList<String> nameList = new ArrayList<String>();
 
 		System.out.println("Enter " + listSize + " names.");
@@ -48,8 +50,8 @@ public class Massiivid {
 			String name = TextIO.getlnWord();
 			nameList.add(name);
 		} // for -- adding names in nameList array
-
-		System.out.println("Names: " + nameList);
+		
+		System.out.print("Names: " + nameList);
 
 		int randomInt = rand.nextInt(6) + 1;
 		// System.out.println(randomInt);
