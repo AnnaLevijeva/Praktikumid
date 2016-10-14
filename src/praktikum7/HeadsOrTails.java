@@ -8,7 +8,7 @@ public class HeadsOrTails {
 	
 	public static void main(String[] args) {
 		
-		String randHT = dropCoin();
+		dropCoin();
 		
 	}
 	

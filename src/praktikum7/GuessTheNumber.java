@@ -1,7 +1,7 @@
 package praktikum7;
 
 import java.util.Random;
-import lib.TextIO;
+//import lib.TextIO;
 import praktikum6.Methods;
 
 public class GuessTheNumber {

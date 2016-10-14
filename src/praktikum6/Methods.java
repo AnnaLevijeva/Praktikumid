@@ -13,7 +13,7 @@ public class Methods {
 //		System.out.println("Selle arvu kuup on " + var);
 //		System.out.println();
 		
-		int kasArv = userInputInt(0, 30);
+		userInputInt(0, 30);
 		
 		
 	}
