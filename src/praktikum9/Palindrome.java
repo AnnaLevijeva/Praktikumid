@@ -3,6 +3,7 @@ package praktikum9;
 public class Palindrome {
 	
 	public static void main(String[] args) {
+		
 //		irjutada programm, mis küsib kasutajalt sõna ja kontrollib, kas see on edaspidi ja tagurpidi lugedes sama (palindroom).
 //		Näited sellistest sõnadest:
 //
