@@ -25,10 +25,10 @@ public class Massiivid {
 		int[] numbers = new int[listSize];
 
 		System.out.println("Enter " + numbers.length + " numbers: ");
+		
 		for (int i = 0; i < numbers.length; i++) {
 			System.out.print("\t" + (i + 1) + ". ");
-			int number = TextIO.getlnInt();
-			numbers[i] = number;
+			numbers[i] = TextIO.getlnInt();
 		}
 
 		System.out.print("You entered (from last to first): \n\t");
