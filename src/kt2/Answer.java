@@ -33,7 +33,12 @@ public class Answer {
 		 * punktisumma üksikkatsete tulemuste massiivi põhjal. Parameetriks
 		 * olevat massiivi muuta ei tohi.
 		 */
-		return 0;
+		int ret = 0;
+		
+		for (int i = 0; i < points.length; i++) {
+			continue;
+		} // for
+		return ret;
 	}
 
 	public static int[] veeruMaxid(int[][] m) {
