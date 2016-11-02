@@ -32,7 +32,10 @@ public class Methods {
 		
 //		System.out.println(absvdeSumma(-2.5, -3.5));
 		
-		System.out.println(ruutudeSumma(new int[]{0,1,2,3,4,5}));
+//		System.out.println(ruutudeSumma(new int[]{0,1,2,3,4,5}));
+		
+//		String s = String.valueOf(1234);
+//		System.out.println(s);
 		
 	}
 	

@@ -34,10 +34,19 @@ public class Answer {
 		 * olevat massiivi muuta ei tohi.
 		 */
 		int ret = 0;
+		int min = points[0];
+		int min2 = points[0];
+		for (int i = 0; i < points.length; i++) {
+			if (points[i] < min) {
+				min = points[i];
+			}
+		} // for fuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuck
 		
 		for (int i = 0; i < points.length; i++) {
-			continue;
-		} // for
+			if (points[i] < min) {
+				min = points[i];
+			}
+		}
 		return ret;
 	}
 
@@ -98,23 +107,16 @@ public class Answer {
 // b. tegevused peale tsükli läbimist; commands to execute after every cycle
 // c. jätkamistingimus; the condition of the loop
 // d. muutujate väärtustamine; setting the values for variables
+
 // Küsimus 4
-// Vastus on salvestatud
-// Võimalik punktisumma 1,00'st
-// Märgista küsimus
-// Küsimuse tekst
+//
 // Mida väljendab alljärgnev programmilõik?
 //
 //
 // What is the meaning of the following Java code?
 //
-//
-//
 // String s = String.valueOf(1234);
 //
-//
-//
-// Vali üks:
 // a. klassi String konstruktori poole pöördumist; a construktor of class String
 // is invoked
 // b. klassi String klassimeetodi poole pöördumist; a class method of class
@@ -123,11 +125,9 @@ public class Answer {
 // for the object s
 // d. jooksva klassi isendimeetodi poole pöördumist; an instance method of
 // current class is invoked
+
 // Küsimus 5
-// Vastus on salvestatud
-// Võimalik punktisumma 1,00'st
-// Märgista küsimus
-// Küsimuse tekst
+
 // Konstruktor on:
 //
 //
@@ -138,11 +138,9 @@ public class Answer {
 // b. dünaamilise pikkusega andmestruktuur; data structure with dynamic length
 // c. keeles Java mitte toetatud; not supported in Java
 // d. meetod isendi loomiseks; a method to create an instance
+
 // Küsimus 6
-// Vastus on salvestatud
-// Võimalik punktisumma 1,00'st
-// Märgista küsimus
-// Küsimuse tekst
+
 // Javadoc @return
 //
 // abil dokumenteeritakse:
@@ -153,11 +151,9 @@ public class Answer {
 // b. versiooniinfot; version information
 // c. meetodi parameetrit; a method parameter
 // d. meetodi tagastusväärtust; a method return value
+
 // Küsimus 7
-// Vastus on salvestatud
-// Võimalik punktisumma 1,00'st
-// Märgista küsimus
-// Küsimuse tekst
+
 // Java koodistiil nõuab konstantide nimede kirjutamist:
 //
 //
@@ -167,18 +163,3 @@ public class Answer {
 // b. väikese algustähega; starting with lowercase letter
 // c. kreeka keeles; in Greek
 // d. suure algustähega; starting with capital letter
-// Jäta vahele Testi navigatsioon
-// Testi navigatsioon
-// Küsimus 1 See leht
-// Küsimus 2 See leht
-// Küsimus 3 See leht
-// Küsimus 4 See leht
-// Küsimus 5 See leht
-// Küsimus 6 See leht
-// Küsimus 7 See leht
-// Küsimus 8
-// Küsimus 9
-// Küsimus 10
-// Küsimus 11
-// Lõpeta katse...
-// Aega jäänud 0:47:13
