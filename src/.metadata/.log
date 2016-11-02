@@ -1,0 +1,52 @@
+!SESSION 2016-10-28 10:07:31.735 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-10-28 10:08:39.225
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\alevijev'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-10-28 10:09:29.628
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2016-10-28 10:09:29.738
+!MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.jface.text 2 0 2016-10-28 10:09:48.257
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-10-28 10:09:48.259
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-10-28 10:09:48.266
+!MESSAGE Duplicate template id: 'org.zamia.plugin.editors.completion.vhdl.nextLabelCond'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-10-28 10:09:48.382
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-10-28 10:09:48.385
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-10-28 10:09:48.391
+!MESSAGE Duplicate template id: 'org.zamia.plugin.editors.completion.vhdl.nextLabelCond'
+
+!ENTRY org.eclipse.egit.core 4 0 2016-10-28 10:42:12.869
+!MESSAGE Connecting Git team provider failed. See log for details.
+!SUBENTRY 1 org.eclipse.egit.core 4 0 2016-10-28 10:42:12.869
+!MESSAGE Saving Git team provider data to H:\git\PraktikumidGitis\src\.metadata\.plugins\org.eclipse.core.resources\.projects\src\org.eclipse.egit.core\GitProjectData.properties failed.
+!STACK 0
+java.io.IOException: Could not delete file H:\git\PraktikumidGitis\src\.metadata\.plugins\org.eclipse.core.resources\.projects\src\org.eclipse.egit.core\GitProjectData.properties
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:197)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:125)
+	at org.eclipse.egit.core.project.GitProjectData.store(GitProjectData.java:586)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.connectProject(ConnectProviderOperation.java:143)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:100)
+	at org.eclipse.egit.core.internal.job.JobUtil$1.run(JobUtil.java:53)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
