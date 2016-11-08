@@ -6,12 +6,12 @@ import lib.TextIO;
 public class HeadsOrTails {
 	
 	public static void main(String[] args) {
-		
-<<<<<<< HEAD
-		dropCoin();
-=======
-		//guessHT();
->>>>>>> b7e6606be0da054c76db0eeb8f8ba7e97e150ce2
+//		
+//<<<<<<< HEAD
+//		dropCoin();
+//=======
+//		//guessHT();
+//>>>>>>> b7e6606be0da054c76db0eeb8f8ba7e97e150ce2
 		
 	} // MAIN method end
 	
